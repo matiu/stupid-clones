@@ -1,0 +1,30 @@
+{
+  "name": "stupid-clones",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+  },
+  "repository": "git://github.com/matiu/stupid-clones.git",
+  "keywords": [
+      "bitcoin",
+      "transaction clones",
+      "transaction malleability"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "async": "*",
+    "leveldown": "*",
+    "commander": "*",
+    "levelup": "*",
+    "classtool": "*",
+    "bignum": "*",
+    "express": "~3.4.7",
+    "buffertools": "*",
+    "bitcore": "git://github.com/bitpay/bitcore.git",
+    "bufferput": "git://github.com/bitpay/node-bufferput.git"
+  }
+}
